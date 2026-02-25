@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-VERSION = "v1.0"
+VERSION = "v2.0"
 
 @app.route("/")
 def home():
